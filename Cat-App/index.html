@@ -9,68 +9,94 @@
 </head>
 
 <body>
-    <h1> <u>CatPhotoApp</u></h1>
-    <h2> <u>Cat Photos</u></h2>
-    <p>See more cat photos in pur gallery.</p>
-    <img src="cat 1.jpg" alt="cat">
-    <hr color="black">
-    <div>
-        <h2> <u>Cat Lists</u></h2>
-        <h3> <u>Things cats love:</u></h3>
-        <ul>
-            <li>Cat nip</li>
-            <li>Laser pointers</li>
-            <li>lasagna</li>
-        </ul>
-        <img src="food.jpg" alt="cat food">
-        <hr color="black">
-    </div>
-    <div>
-        <h2>
-            <u>Top 3 things cats hate:</u>
-        </h2>
-        <ol type="1">
-            <li>
-                Flea treatment
-            </li>
-            <li>
-                Thunder
-            </li>
-            <li>
-                Other cats
-            </li>
-        </ol>
-        <img src="kittens.jpg" alt="kittens">
-        <p>Cat <b>hate</b> other cats</p>
-        <hr color="black">
-    </div>
-    <div>
+    <header>
+        <div>
+            <h1 align="center">
+                Cat App
+            </h1>
+        </div>
+        <hr>
+    </header>
+    <main>
         <section>
-            <h2>Cat Form</h2>
-            <form action="https://freecatphotoapp.com/submit-cat-photo">
-                <fieldset>
-                    <legend>Is your cat an indoor or outdoor cat?</legend>
-                    <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked="">
-                        Indoor</label>
-                    <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
-                </fieldset>
-                <fieldset>
-                    <legend>What's your cat's personality?</legend>
-                    <label for="loving"><input id="loving" type="checkbox" name="personality" value="loving" checked="">
-                        Loving</label>
-                    <label for="lazy"><input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy</label>
-                    <label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic">
-                        Energetic</label>
-                </fieldset>
-                <input type="text" name="catphotourl" placeholder="cat photo URL" required="">
-                <button type="submit">Submit</button>
-            </form>
+            <div>
+                <h2>Cat Photos</h2>
+                <p>See more cat photos in pur gallery.</p>
+                <img src="cat 1.jpg" alt="cat">
+            </div>
+            <hr>
         </section>
-    </div>
+        <section>
+            <div>
+                <h2>Cat Lists</h2>
+                <h3>Things cats love:</h3>
+                <ul>
+                    <li>Cat nip</li>
+                    <li>Laser pointers</li>
+                    <li>lasagna</li>
+                </ul>
+                <img src="food.jpg" alt="cat food">
+                <hr>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>
+                    Top 3 things cats hate:
+                </h2>
+                <ol>
+                    <li>
+                        Flea treatment
+                    </li>
+                    <li>
+                        Thunder
+                    </li>
+                    <li>
+                        Other cats
+                    </li>
+                </ol>
+                <img src="kittens.jpg" alt="kittens">
+                <p>Cat <b>hate</b> other cats</p>
+                <hr>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>Cat Form</h2>
+                <form>
+                    <fieldset>
+                        <legend>Is your cat an indoor or outdoor cat?</legend>
+                        <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked="">
+                            Indoor</label>
+                        <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor">
+                            Outdoor</label>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>What's your cat's personality?</legend>
+                        <label for="loving"><input id="loving" type="checkbox" name="personality" value="loving"
+                                checked="">
+                            Loving</label>
+                        <label for="lazy"><input id="lazy" type="checkbox" name="personality" value="lazy">
+                            Lazy</label>
+                        <label for="energetic"><input id="energetic" type="checkbox" name="personality"
+                                value="energetic">
+                            Energetic</label>
+                    </fieldset>
+                    <br>
+                    <input type="text" name="catphotourl" placeholder="cat photo URL" required="">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
     <footer>
         <br>
-        <hr color="black"><br>
-        No copyright - <b>@Kartik Manchanda</b><br>
+        <hr><br>
+        <div align="center">
+            &copy; Copyright <strong><span>Vinit</span></strong>. All Rights Reserved
+        </div>
+        <br>
     </footer>
 </body>
 
